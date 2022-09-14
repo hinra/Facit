@@ -18,6 +18,8 @@
         background-color: #41477e;
         grid-template-columns: 1fr 4fr;
         display: grid;
+        width: 80%;
+        margin: 20px auto; 
        
        
     }
@@ -25,7 +27,7 @@
     #wrapper nav,
     article {
         background-color: #32236e;       
-        border: 1px solid red;
+        border: 1px dotted #9076f5;
         padding: 20px;
     }
 
@@ -42,20 +44,35 @@
         margin: 35px;
     }
 
+    nav a {
+        color: inherit;
+    }
+
+    nav a:hover {
+        color: orange;
+    }
+
 
     article {
       
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         margin: 30px;        
     }
+
+    footer {
+       margin: 100px 20px; 
+       
+        font-style: italic;
+   color:rgb(1, 124, 185);
+    }
 </style>
 
 <body>
     <div id="wrapper">
         <nav>
-            <i class="fa fa-home fa-3x"></i>
-            <i class="fa fa-image fa-3x"></i>
-            <i class="fa fa-search fa-3x"></i>
+           <a href=""> <i class="fa fa-home fa-3x"></i></a>
+           <a href=""><i class="fa fa-image fa-3x"></i></a>
+           <a href=""><i class="fa fa-search fa-3x"></i></a>
         </nav>
         <article>
             <h1>Hem</h1>
@@ -63,6 +80,7 @@
             obcaecati consequuntur ipsam tempore! Nam fuga porro cupiditate similique nesciunt. Quis id ex cum
             consectetur quibusdam eos dolor aperiam perspiciatis omnis autem? Debitis, animi eum officia dignissimos
             possimus enim totam vero.
+            <footer>Den prickiga ramen finns för att synliggöra läge och storlek</footer>
         </article>
     </div>
 
