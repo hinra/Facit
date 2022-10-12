@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="prov.css">
+    <title>CSS på olika sätt</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <h1>Types of CSS (Cascading Style Sheet)</h1>
+    <header>Cascading Style Sheet(CSS) is used to set the style in web pages that contain HTML elements. It sets the
+        background color, font-size, font-family, color, … etc property of elements on a web page.
+        There are three types of CSS which are given below </header>
+    <nav>
+        <ul>
+            <li><a>Inline CSS </a></li>
+            <li><a>Embedded CSS</a></li>
+            <li><a>External CSS</a></li>
+        </ul>
+    </nav>
+    <article>
+        <h2>Inline CSS</h2>
+        <p>Inline CSS contains the CSS property in the body section attached with element is known as inline CSS. This
+            kind of style is specified within an HTML tag using the style attribute.</p>
+        <h2>Internal or Embedded CSS</h2>
+        <p>This can be used when a single HTML document must be styled uniquely. The CSS rule set should be within the
+            HTML file in the head section i.e the CSS is embedded within the HTML file.</p>
+        <h2>External CSS</h2>
+        <p> External CSS contains separate CSS file which contains only style property with the help of tag attributes
+            (For example class, id, heading, … etc). CSS property written in a separate file with .css extension and
+            should be linked to the HTML document using link tag. This means that for each element, style can be set
+            only once and that will be applied across web pages.
+            Example: The file given below contains CSS property. This file save with .css extension.
+        </p>
+
+
+    </article>
+    <hr>
+    <footer>
+        <h3>Uppgift</h3>
+        <p> Du ska addera css till den här filen (i style taggen) eller ett externt css så att de egenskaper som syns i
+            filmen tillämpas och att de ändras vid bredden 600px. Avsnitt med uppgifter ska helst inte påverkas. 
+            Inga ändringar i body. Använd endast befintliga element effektivt dvs inga onödiga upprepningar!
+            Det är :
+        <h4>Över 600px</h4>
+        <ul>
+            <li>Avsnitt <i>article</i>ska ha grön bakgrund, texten ljusgrön ram</li>
+            <li>De tre länkar ska hamna i samma rad</li>
+            <li>Varje länk ska få en symbol från Font Awesome (file-code-o/gears/file-o) eller liknande</li>
+            <li>All text ska vara 'Verdana'</li>
+            <li>Länkar får grå bakgrund när musen är över</li>
+            <li>h2 i article ska ha högermarginal och grön färg</li>
+            <li>Hela sidan har en bakgrund som ändrar sig från lightgrey till darkgreen </li>
+        </ul>
+
+        <h4>under 600px</h4>
+        <ul>
+            <li>Avsnitt <i>article</i>ska ha genomskinlig bakgrund, texten ljusgrön ram</li>
+            <li>De tre länkar ska hamna under varandra</li>
+            <li>Varje länk ska få en symbol från Font Awesome (file-code-o/gears/file-o) eller liknande</li>
+            <li>All text ska vara 'Verdana'</li>
+            <li>Länkar får grå bakgrund när musen är över</li>
+            <li>h2 i article ska ha vänstermarginal och grön färg</li>
+            <li>Hela sidan har en bakgrund som ändrar sig från lightgrey till darkgreen </li>
+        </ul>
+
+        <b>Någrå ord som kan hjälpa vid googlandet:</b><br>
+        Media queries - margin - grid - flexbox - display - linear gradient -Font Awesome - Descendant combinator
+        </p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funktion i JS</title>
+</head>
+<script>
+
+    var berekning = function (a, b) {
+        return a + b;
+    }
+
+    function minus(a, b) {
+        return a - b;
+    }
+
+    function doNothing() {
+
+    }
+
+</script>
+
+<body>
+    <script>
+
+        document.write("first: " + berekning(5, 10) + "<br>");
+
+        // ändra berekning 
+        berekning = minus;
+        document.write("andra:  " + berekning(5, 10) + "<br>");
+
+
+        document.write("tredje:  " + doNothing()); 
+    </script>
+    <hr>
+    <!--
+    <h3>Om Scope</h3>
+    <script>
+        var x = "outside";
+        var f1 = function() {
+            var x = "inside f1";
+        };
+
+        f1();
+        console.log(x);
+
+        var f2 = function() {
+                x = "inside f2";};
+                
+        f2();
+        console.log(x);
+
+    </script>
+
+    -->
+
+</body>
+
+
+</html>

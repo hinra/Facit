@@ -1,0 +1,78 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to bottom, lightgrey, rgb(8, 68, 1));
+   background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 { color: rgb(1, 70, 1);}
+
+
+ul i {
+    margin-right: 10px;
+}
+
+li:hover {
+    background-color: grey;
+}
+
+@media screen and (max-width: 600px) {
+
+    h2 {
+        background-color: lightseagreen;
+        padding: 25px 5px 5px 10px;
+        font-size: 1.2em;
+        margin-bottom: 0;
+    }
+
+    article p {
+        border: 2px solid lightseagreen;
+        margin-top: 0;
+        padding: 5px;
+    }
+
+    nav li {
+        margin-bottom: 1em;
+        margin-right: 20px;
+        padding: 10px;
+     }
+
+
+}
+
+@media screen and (min-width: 601px) {
+
+    h2 {
+        text-align: right;
+        font-size: 1.2em;
+        margin: 0;
+        margin-block-start: 0;
+    }
+
+   article p {
+        border: 2px solid lightseagreen;
+        margin-top: 0;
+        padding: 5px;
+        margin-right: 20px;
+    }
+
+    nav li {
+        display: inline;
+        margin-bottom: 1em;
+        margin-right: 20px;
+        padding: 10px;
+       
+    }
+
+    article {
+        display: grid;
+        gap: 10px;
+        padding: 10px 0;
+        grid-template-columns: 1fr 2fr;
+        background-color: seagreen;
+    }
+
+}
